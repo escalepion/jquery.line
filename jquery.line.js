@@ -1,4 +1,4 @@
-sad/*-------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------
   This plugin is based on the GAPJUMPER line example http://www.gapjumper.com/research/lines.html.
   Special thanks to its author!
   Author: Tiago do Bem 
