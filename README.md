@@ -27,4 +27,8 @@ $('#example').line(10, 10, 300, 300, {color:"#D60004", stroke:5, zindex:1001}, f
 
 Open index.html in the 'example' folder on your browser to see some lines.
 
+Additional Note: Drawing line between center of two elements added.
+1- In example folder, in index.html , added the drawBetween.js file.
+2- Usage : drawLineBetween ('#s3', '#s4');
+
 

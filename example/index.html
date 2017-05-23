@@ -2,12 +2,12 @@
   <head>
     <script type="text/javascript" src="jquery.1.10.2.js"></script>
     <script type="text/javascript" src="../jquery.line.js"></script>
-    <script type="text/javascript" src="../get.coordinates.js"></script>
+    <script type="text/javascript" src="../drawBetweenEl.js"></script>
     <link rel="stylesheet" href="default_css.css">
     <script type="text/javascript">
     $(function() {
 
-      getCoordinate('#s3', '#s4');
+      drawLineBetween('#s3', '#s4');
       $('#example').line(190, 225, 352, 225, {color:"red", zindex:1});
 
       $('#s1').line(0,0,50,50, {color:"pink"});
