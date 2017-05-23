@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script type="text/javascript" src="../example/jquery.1.10.2.js"></script>
+    <script type="text/javascript" src="../jquery.line.js"></script>
+    <script type="text/javascript" src="../drawBetweenEl.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+    $(function() {
+
+       drawLineBetween('#o1', '#o2', {color:"red", zindex:1});
+       drawLineBetween('#o1', '#o3',{zindex:1});
+       drawLineBetween('#o2', '#o4');
+       drawLineBetween('#o2', '#o5',{color:"blue", zindex:1});
+
+    });
+
+    </script>
+  </head>
+  <body>
+      <div class="object" id="o1">
+      </div>
+       <span class="object" id="o2">
+      </span>
+       <div class="object" id="o3">
+      </div>
+       <div class="object" id="o4">        
+      </div>
+      <img id="o5" src="images/javascript.jpg" style="margin: 50px 0 0 75px" />
+  </body>
+</html>

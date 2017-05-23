@@ -1,4 +1,4 @@
-function drawLineBetween (element1, element2) {
+function drawLineBetween (element1, element2, options) {
     var offsetFirstElement = $(element1).offset();
     var beginX = offsetFirstElement.left +$(element1).width() / 2;
     var beginY = offsetFirstElement.top+ $(element1).height() / 2;
@@ -13,5 +13,5 @@ function drawLineBetween (element1, element2) {
         endX : endX,
         endY : endY
     }
-   $('#example').line(beginX, beginY, endX, endY, {color:"red", zindex:999});
+   $('body').line(beginX, beginY, endX, endY, options);
 }
